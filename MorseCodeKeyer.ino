@@ -26,7 +26,7 @@
 int dah_pin = 2;
 int dit_pin = 5;
 
-int out_pin = 1;
+int out_pin = 0;
 
 int dit_length = 100; //ms
 int dah_length = 300; //ms
@@ -38,10 +38,10 @@ void setup() {
 }
 
 void loop() {
-  if( digitalRead(dah_pin) == HIGH ) {
+  if( digitalRead(dah_pin) == LOW ) {
     dah();
   }
-  if( digitalRead(dit_pin) == HIGH ) {
+  if( digitalRead(dit_pin) == LOW ) {
     dit();
   }
 }
