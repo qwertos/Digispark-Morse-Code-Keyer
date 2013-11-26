@@ -28,9 +28,11 @@ int dit_pin = 5;
 
 int out_pin = 0;
 
-int dit_length = 100; //ms
-int dah_length = 300; //ms
-int space_length = 100; //ms
+double scale = 1.1;
+
+int dit_length = 100 * scale; //ms
+int dah_length = 300 * scale; //ms
+int space_length = 100 * scale; //ms
 
 
 void setup() {
