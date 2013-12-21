@@ -28,7 +28,7 @@ int dit_pin = 5;
 
 int out_pin = 0;
 
-double scale = 1.1;
+double scale = 0.6;
 
 int dit_length = 100 * scale; //ms
 int dah_length = 300 * scale; //ms
